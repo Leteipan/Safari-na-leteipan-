@@ -1,0 +1,120 @@
+body{
+    background: var(--primary-color);
+}
+
+
+:root {
+    --primary-color: #f2f2f2;
+    --secondary-color: grey;
+    --primaryII-color: #dcd3c7;
+    --secondaryII-color: black;
+    --primaryIII-color: white;
+    --secondaryIII-color: #000;
+    --primaryIV-color: #256579;
+    --secondaryIV-color: #fff;
+    --secondaryV-color: #256579;
+    --secondaryVII-color: #050505;
+}
+.dark-theme {
+    --primary-color: #1f1f1f;
+    --secondary-color: grey;
+    --primaryII-color: #121212;
+    --secondaryII-color: grey;
+    --primaryIII-color: #121212;
+    --secondaryIII-color: white;
+    --primaryIV-color: #121212;
+    --secondaryIV-color: grey;
+    --secondaryV-color: #7ac5cd;
+    --secondaryVII-color:#fff;
+}
+.login {
+    width: 80%;
+    margin: auto;
+background: var(--primary-color);
+
+}
+.column {
+    flex-basis: 48%;
+    margin-bottom: 30px;
+
+
+}
+.column div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+.column div p {
+    padding: 0;
+
+}
+.heado{
+    color: var(--secondaryVII-color);
+    font-size: 17px;
+    text-decoration: none;
+}
+.heado:hover{
+    color: var(--secondaryV-color);
+    text-decoration: underline;
+    transition-delay: 0.2s;
+}
+
+.column input, .column textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid var(--primaryIII-color);
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+.location {
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+.location iframe {
+    width: 100%;
+
+}
+.Contact-footer{
+    margin-top: 450px;
+}
+.contact-header{
+    margin-right: -25px;
+}
+.btn {
+  margin-top: 5px;
+    padding: 10px 20px;
+    font-size: 17px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    background: black;
+    transition: 0.2s ease;
+    margin-bottom: 15px;
+    transition: transform 0.5s;
+    margin-left: 1px;
+
+}
+.btn:hover {
+    background: var(--primaryIII-color);
+    transition-delay: 0.2s;
+    color: #654321;
+}
+.formb{
+    background: #256579;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 20px;
+    margin-top: 70px;
+
+}
+.input{
+    background: var(--primaryIII-color);
+}
+.pc{
+    color: var(--secondary-color);
+}

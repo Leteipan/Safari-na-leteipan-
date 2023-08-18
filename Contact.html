@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safari na leteipan | Contact us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link href="http://fonts.googleapis.com/css2? family-Poppins:wght@300;400;500;600;700&display-swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/Contact.css" title="" type="" />
+    <!------Animation link------>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h2 class="logo"><a href="#home">SNL</a></h2>
+            <img src="images/moon.png" id="icon">
+            <input type="checkbox" id="menu-toggler">
+            <label for="menu-toggler" id="hamburger-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px">
+                    <path d="M0 0h24v24H0z" fill="none" />
+                    <path d="M3 18h18v-2H3v2zm0-5h18V11H3v2zm0-7v2h18V6H3z" />
+                </svg>
+            </label>
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="events.html">Blog</a></li>
+                <li><a href="Forest.html">Adventures</a></li>
+                <li><a href="index.html">About Us</a></li>
+                <li><a href="Contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-----form input----->
+    <section class="login">
+        <div class="rowr">
+
+            <div style="margin-top:60px"class="column">
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5 class="Heado"><a style="color: var(--secondaryVII-color)" class="Heado"href="tel:+254707376176">+254707376176</a></h5>
+                    <p class="pc">
+                        Monday to Saturday, 10AM to 6PM
+                    </p>
+                </span>
+            </div>
+
+            <div class="column">
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5 class="Heado"><a style="color: var(--secondaryVII-color)"class="Heado"href="mailto:leteipanmontane@gmail.com">leteipanmontane45@gmail.com</a>
+                    </p>
+
+                </h5>
+                <p class="pc">
+                    Email for any Inquiry
+                </p>
+            </span>
+        </div>
+        <div class="column">
+            <div data-aos="fade-up" class="formb">
+                <form class="" action="form-handler.php" method="post" accept-charset="utf-8">
+                    <input class="input"type="text" name="name"placeholder="Enter Your Name*" required />
+                    <input class="input"type="email" name="email" placeholder="Enter Email Address*" required />
+                    <input class="input" type="text" name="subject"placeholder="Enter Your Subject" required />
+                    <textarea class="input"rows="8" name="massage"placeholder="Massage*"></textarea>
+                    <button class="btn" type="submit">Send Massage</button>
+                </form>
+            </div>
+
+
+        </div>
+
+    </div>
+    <a class="whats-app" href="https://wa.me/+254713298398" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
+
+</section>
+
+<!-----footer------>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3 style="margin-left:20px; text-align:center">Subscribe to our Channel</h3>
+                <p class="ptt">
+                    Visit youtube to see more content
+                </p>
+                <div class="footer-col-2">
+                    <a style="cursor:pointer" href="www.youtube.com"><button style="border-color:#256579; margin-top:10px;color:#7e2b29"type="link">Subscribe</button></a>
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img class="foim" src="images/Logo01.jpg" style="margin-top:10px; margin-left:20px" />
+                <p style="text-align:center; margin-left:20px">
+                    Thank You for stopping by and checking us
+                </p>
+            </div>
+            <div class="footer-col-4" style="margin-left:30px; margin-top: 10px">
+                <h3 style="text-align:center; margin-right:6px">Follow us on;</h3>
+                <ul>
+                    <button class="fabuttn"><li><a href="https://www.facebook.com/Safari-na-leteipan-287480751988351/" class="fa fa-facebook"style="font-size:20px;color:white"></a></li></button>
+                    <button class="fabuttn"><li><a href="#" class="fa fa-twitter" style="font-size:20px;color:white"></a></li></button>
+                    <button class="fabuttn"><li><a href="#" class="fa fa-linkedin"style="font-size:20px;color:white"></a></li></button>
+                    <button class="fabuttn"><li><a href="#" class="fa fa-instagram"style="font-size:20px;color:white"></a></li></button>
+                </ul>
+
+            </div>
+            <hr />
+            <p class="Copyright">
+                Copyright 2023 - Safari na leteipan <br />
+                Website by <a href="https://www.letei.co.ke"><small style="color:royalblue">Letei</small></a>
+            </p>
+        </div>
+
+    </div>
+
+</div>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1000,
+        once: false,
+    });
+</script>
+<script type="text/javascript" charset="utf-8">
+    var icon = document.getElementById("icon");
+    if (localStorage.getItem("theme") == null) {
+        localStorage.setItem("theme", "light");
+    }
+    let localData = localStorage.getItem("theme");
+    if (localData == "light") {
+        icon.src = "images/moon.png";
+        document.body.classList.remove("dark-theme")
+    } else if (localData == "dark") {
+        icon.src = "images/sun.png";
+        document.body.classList.add("dark-theme")
+    }
+    icon.onclick = function() {
+        document.body.classList.toggle("dark-theme");
+        if (document.body.classList.contains("dark-theme")) {
+            icon.src = "images/sun.png";
+            localStorage.setItem("theme", "dark");
+        } else {
+            icon.src = "images/moon.png";
+            localStorage.setItem("theme", "light");
+        }
+
+    }
+
+</script>
+</body>
+</html>
