@@ -420,7 +420,7 @@ hr.horizontal3 {
 .mySlides {
     display: none;
 }
-.mySlides{
+.mySlides img {
     image-orientation: from-image;
 }
 
