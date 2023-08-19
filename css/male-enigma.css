@@ -420,6 +420,9 @@ hr.horizontal3 {
 .mySlides {
     display: none;
 }
+.mySlides{
+    image-orientation: from-image;
+}
 
 /* Next & previous buttons */
 .prev, .next {
