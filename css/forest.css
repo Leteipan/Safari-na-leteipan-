@@ -12,7 +12,7 @@ html {
 }
 p::selection {
     /* Change highlight background color to black */
-    background: #256579;
+    background: #ee7600;
     /* Change highlight text color to red */
     color: white;
 }
@@ -33,10 +33,10 @@ body {
     --secondaryII-color: black;
     --primaryIII-color: white;
     --secondaryIII-color: #000;
-    --primaryIV-color: #256579;
+    --primaryIV-color: #ee7600;
     --secondaryIV-color: #fff;
     --primaryV-color: grey;
-    --secondaryV-color: #256579;
+    --secondaryV-color: #ee7600;
 
 }
 .dark-theme {
@@ -231,7 +231,7 @@ section .KaruraDiv {
 }
 .title::after {
     content: '';
-    background: #256579;
+    background: #ee7600;
     width: 88px;
     height: 5px;
 
@@ -391,7 +391,7 @@ li {
     height: 30px;
     border-radius: 50%;
     margin-right: 15px;
-    background-color: #256579;
+    background-color:#ee7600;
     cursor: pointer;
 }
 .Letei {
