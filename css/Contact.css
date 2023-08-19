@@ -10,9 +10,9 @@ body{
     --secondaryII-color: black;
     --primaryIII-color: white;
     --secondaryIII-color: #000;
-    --primaryIV-color: #256579;
+    --primaryIV-color: #ee7600;
     --secondaryIV-color: #fff;
-    --secondaryV-color: #256579;
+    --secondaryV-color: #ee7600;
     --secondaryVII-color: #050505;
 }
 .dark-theme {
@@ -105,7 +105,7 @@ background: var(--primary-color);
     color: #654321;
 }
 .formb{
-    background: #256579;
+    background: #ee7600;
     padding-right: 25px;
     padding-left: 25px;
     padding-top: 20px;
