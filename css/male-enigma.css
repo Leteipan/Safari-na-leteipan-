@@ -33,9 +33,9 @@ p::selection {
     --secondaryII-color: black;
     --primaryIII-color: white;
     --secondaryIII-color: #000;
-    --primaryIV-color: #256579;
+    --primaryIV-color:#ee7600;
     --secondaryIV-color: #fff;
-    --secondaryV-color: #256579;
+    --secondaryV-color: #ee7600;
     --secondaryVI-color: purple;
     --secondaryVII-color: orange;
 }
@@ -126,7 +126,7 @@ header a:hover, footer a:hover {
 }
 .titleI::after {
     content: '';
-    background: #256579;
+    background: #ee7600;
     width: 89px;
     height: 4px;
     border-radius: 5px;
@@ -137,7 +137,7 @@ header a:hover, footer a:hover {
 }
 /*-------buttons-----*/
 .karuraB {
-    background: #256579;
+    background: #ee7600;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 55px;
@@ -179,7 +179,7 @@ header a:hover, footer a:hover {
 }
 .title::after {
     content: '';
-    background: #256579;
+    background: #ee7600;
     width: 88px;
     height: 5px;
 
@@ -234,7 +234,7 @@ section .KaruraDiv {
 }
 .BlogIbutn {
     margin-top: 30px;
-    background: #256579;
+    background: #ee7600;
     margin-bottom: 1px;
     width: 55px;
     height: 18px;
@@ -324,7 +324,7 @@ hr.horizontal {
 
 }
 .linkimg:hover {
-    color: #256579;
+    color: #ee7600;
 }
 .Quota {
     display: flex;
@@ -363,7 +363,7 @@ hr.horizontal2 {
 
 }
 .spanNxt:hover {
-    color: #256579;
+    color: #ee7600;
 }
 .Titl {
     margin-top: 100px;
@@ -387,7 +387,7 @@ hr.horizontal2 {
 hr.horizontal3 {
     border: 0;
     margin: 0;
-    border: 2px solid #256579;
+    border: 2px solid #ee7600;
     width: 350px;
     height: 0px;
     margin-bottom: 0px;
@@ -637,7 +637,7 @@ li {
     height: 30px;
     border-radius: 50%;
     margin-right: 15px;
-    background-color: #256579;
+    background-color: #ee7600;
     cursor: pointer;
 }
 .malep {
@@ -793,7 +793,7 @@ li {
     }
 }
 .descriptist {
-    color: #256579;
+    color: #ee7600;
     font-weight: none;
     display: block;
 }
