@@ -38,7 +38,7 @@ p::selection {
     --secondaryIII-color: #000;
     --primaryIV-color: #ee7600;
     --secondaryIV-color: #fff;
-  --secondaryV-color: ##ee7600;
+    --secondaryV-color: ##ee7600;
     --secondaryVI-color: #555;
      --border-color: none;
     
@@ -52,7 +52,7 @@ p::selection {
     --secondaryIII-color: white;
     --primaryIV-color: #121212;
     --secondaryIV-color: white;
-  --secondaryV-color: #7ac5cd;
+    --secondaryV-color: #7ac5cd;
     --secondaryVI-color: #cdcdc1;
      --border-color: grey;
 }
