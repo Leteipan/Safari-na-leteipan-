@@ -25,7 +25,7 @@ p::selection {
 
 /* Dark theme */
 #icon {
-    width: 5%;
+    width: 3%;
     cursor: pointer;
     margin-left: 1px;
 }
@@ -547,7 +547,7 @@ li {
         margin-top: -7.4px;
     }
     #icon {
-        width: 8%;
+        width: 5%;
         cursor: pointer;
         margin-left: 1px;
     }
@@ -611,7 +611,7 @@ li {
 
 @media screen and (max-width: 560px) {
     #icon {
-        width: 8%;
+        width: 5%;
         cursor: pointer;
         margin-left: 1px;
     }
